@@ -28,10 +28,3 @@ fclean: clean
 	rm fdf -f
 
 re: fclean fdf
-
-run: all
-	echo "Run=>"
-	./fdf
-
-test:
-	echo $(OBJS_WITH_PATH)
